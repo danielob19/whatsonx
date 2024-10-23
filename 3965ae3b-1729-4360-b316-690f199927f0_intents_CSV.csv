@@ -1,0 +1,276 @@
+tuve una convesacion acalorada,Acaloramiento
+tengo calores,Acaloramiento
+me siento acalorado,Acaloramiento
+me siento acalorada,Acaloramiento
+me agobia,Agobio
+me siento agobiado,Agobio
+me siento agobiada,Agobio
+tengo mucho agotamiento,Agotamiento
+me siento agotado,Agotamiento
+me siento agotada,Agotamiento
+sufro de agotamiento,Agotamiento
+agradecida,Agradecimiento
+gracias,Agradecimiento
+agradecido,Agradecimiento
+te agradezco,Agradecimiento
+muchas gracias,Agradecimiento
+tengo sensaciones de ahogo,Ahogo
+tengo ahogos,Ahogo
+siento que me ahogo,Ahogo
+me vienen ataques de panico,AtaquePanico
+sufro de ataques de panico,AtaquePanico
+tengo ataque de panico,AtaquePanico
+estoy con baja autoestima,BajAutoestima
+me siento bajoneado,Bajon
+me siento bajoneada,Bajon
+me bajonea,Bajon
+estoy con bajon,Bajon
+buenas tardes,Bienvenida
+buen dia,Bienvenida
+que tal,Bienvenida
+hola,Bienvenida
+buenas noches,Bienvenida
+consultar el valor de la sesion,Consulta
+consultar si atienden adolescentes,Consulta
+consultar los horarios,Consulta
+el valor de consulta,Consulta
+consultarte honorarios,Consulta
+tener una consulta,Consulta
+como se hace para tener una consulta,Consulta
+la primera consulta,Consulta
+cuanto cuesta la consulta,Consulta
+cuanto cuesta la sesion,Consulta
+consultar el valor de la consulta,Consulta
+consultar si atienden niños,Consulta
+consultar la dirección,Consulta
+hola como se puede tratar el ataque de panico,ConsultarTratamientoAtaquePanico
+valor de la consulta,Costo
+precio de la consulta,Costo
+costo de la consulta,Costo
+cuanto cuesta la consulta,Costo
+nervioso,Depresión
+estoy deprimido,Depresión
+estoy deprimida,Depresión
+ansioso,Depresión
+ansiosa,Depresión
+angustia,Depresión
+tengo depresion,Depresión
+ansiedad,Depresión
+angustiado,Depresión
+angustiada,Depresión
+nervios,Depresión
+nerviosa,Depresión
+me falta el aliento,Desaliento
+tengo desaliento,Desaliento
+estoy desalentada,Desaliento
+estoy desalentado,Desaliento
+estoy desanimado,Desanimo
+me desanima,Desanimo
+estoy sin animo,Desanimo
+estoy desanimada,Desanimo
+me desmaye,Desmayo
+sufro de desmayos,Desmayo
+tengo desmayos,Desmayo
+senti que me desmayaba,Desmayo
+discutimos mucho,Discusion
+discuto mucho,Discusion
+enseguida discuto,Discusion
+todo el tiempo discutiendo,Discusion
+estancado,Estancamiento
+estancamiento,Estancamiento
+me siento estancado,Estancamiento
+estancada,Estancamiento
+estoy estancado,Estancamiento
+me siento estancada,Estancamiento
+estoy estancada,Estancamiento
+tengo estres,Estres
+angustia,Estres
+angustiada,Estres
+angustiado,Estres
+ansiedad,Estres
+ansiosa,Estres
+ansioso,Estres
+nervios,Estres
+nerviosa,Estres
+nervioso,Estres
+tengo problemas de concentracion,FaltaConcentracion
+no me puedo concentrar,FaltaConcentracion
+angustiada,Fobia
+tengo fobia,Fobia
+nervioso,Fobia
+nerviosa,Fobia
+nervios,Fobia
+ansioso,Fobia
+ansiosa,Fobia
+ansiedad,Fobia
+angustiado,Fobia
+angustia,Fobia
+estoy frustrada,Frustracion
+tengo frustracion,Frustracion
+me siento frustrado,Frustracion
+me siento frustrada,Frustracion
+estoy frustrado,Frustracion
+hablar,Hablar
+hablar con alguien,Hablar
+hablar con un psicologo,Hablar
+charlar con alguien,Hablar
+charlar,Hablar
+solamente hablar,Hablar
+solo hablar,Hablar
+dias de atencion,HorarioDeAtencion
+que dias atiende,HorarioDeAtencion
+en que horarios atiende,HorarioDeAtencion
+en que horario atiende,HorarioDeAtencion
+necesito más información,Informacion
+necesito mas informacion,Informacion
+necesito información,Informacion
+necesito informacion,Informacion
+necesitaría información,Informacion
+necesitaria informacion,Informacion
+me siento insegura,Inseguridad
+me siento inseguro,Inseguridad
+tengo inseguridad,Inseguridad
+me siento irritado,Irritacion
+me irrita,Irritacion
+lloro todo el tiempo,Llanto
+ganas de llorar,Llanto
+enseguida me largo a llorar,Llanto
+estoy muy asustado,Miedo
+me asusto mucho,Miedo
+me da miedo,Miedo
+siento miedo,Miedo
+tengo miedo,Miedo
+tengo nauseas,Nauseas
+me vienen nauseas,Nauseas
+sufro de nauseas,Nauseas
+tengo sensaciones de nauseas,Nauseas
+tengo muchos nervios,Nervios
+me pongo nerviosa,Nervios
+me pongo nervioso,Nervios
+cosas,OtraRazon
+ansiedad,OtraRazon
+angustiado,OtraRazon
+otra cosa,OtraRazon
+nervios,OtraRazon
+es por otra razon,OtraRazon
+angustia,OtraRazon
+angustiada,OtraRazon
+me agarran las palpitaciones,Palpitaciones
+me vienen palpitaciones,Palpitaciones
+tengo muchas palpitaciones,Palpitaciones
+quedo paralizado,Paralisis
+me viene la paralisis,Paralisis
+me paraliza,Paralisis
+me paralizo,Paralisis
+quedo paralizada,Paralisis
+me falta memoria,ProblemaMemoria
+tengo problemas de memoria,ProblemaMemoria
+no tengo memoria,ProblemaMemoria
+Hola,Saludo
+Buen día,Saludo
+Buenas tardes,Saludo
+Buenas noches,Saludo
+Que tal,Saludo
+Hola que tal,Saludo
+chau,Saludo_1
+adios,Saludo_1
+bye,Saludo_1
+bye bye,Saludo_1
+hasta luego,Saludo_2
+hasta pronto,Saludo_2
+estamos en contacto,Saludo_3
+seguimos en contacto,Saludo_3
+nos vemos,Saludo_3
+mil gracias,Saludo_4
+muchas gracias,Saludo_4
+gracias,Saludo_4
+saludos cordiales,Saludo_5
+un saludo,Saludo_5
+saludos,Saludo_5
+estoy muy susceptible,SensEmocional
+estoy muy sensible,SensEmocional
+tengo sensibilidad emocional,SensEmocional
+tuve una sensacion de muerte,SensMuerte
+me sentia morir,SensMuerte
+me senti al borde de la muerte,SensMuerte
+crei que me moria,SensMuerte
+que significa este sitio,Sitio_Pagina
+que ofrecen en este sitio,Sitio_Pagina
+que ofrecen en esta pagina,Sitio_Pagina
+sobre que es esta pagina,Sitio_Pagina
+siento soledad,Soledad
+siento solo,Soledad
+sola,Soledad
+soledad,Soledad
+solo,Soledad
+estoy sola,Soledad
+estoy solo,Soledad
+siento sola,Soledad
+tengo temblores,Temblores
+me pongo a temblar,Temblores
+me tiembla el cuerpo,Temblores
+terapia,terapia
+aconsejaron hacer un tratamiento,terapia
+comenzar psicoterapia,terapia
+comenzar terapia,terapia
+decidi iniciar un tratamiento,terapia
+deseo comenzar un tratamiento,terapia
+ganas hacer un tratamiento,terapia
+hacer psicoterapia,terapia
+hacer terapia,terapia
+individual,terapia
+necesito terapia,terapia
+necesito ver un psicologo,terapia
+necesito ver un psicólogo,terapia
+psicoterapia,terapia
+psicoterapia individual,terapia
+quiero hacer un tratamiento,terapia
+terapia individual,terapia
+valor para buscar tratamiento,terapia
+terapia de pareja,TerapiaPareja
+quiero hacer terapia de pareja,TerapiaPareja
+pareja,TerapiaPareja
+hacer terapia de pareja,TerapiaPareja
+terapia pareja,TerapiaPareja
+tengo mucha transpiracion,Transpiracion
+sudo todo el tiempo,Transpiracion
+tengo mucha sudoracion,Transpiracion
+transpiro mucho,Transpiracion
+estoy triste,Tristeza
+tristeza,Tristeza
+triste ,Tristeza
+tengo tristeza,Tristeza
+me siento triste,Tristeza
+mi vida esta vacia,Vacio
+me siento vacio por dentro,Vacio
+me siento vacia por dentro,Vacio
+2,variables
+e,variables
+c,variables
+d,variables
+I,variables
+1,variables
+b,variables
+alfa,variables
+a,variables
+5,variables
+4,variables
+3,variables
+abusada,Violencia
+abusado,Violencia
+abuso,Violencia
+agredida,Violencia
+informacion porque fui abusada,Violencia
+informacion porque fui abusado,Violencia
+lastimada,Violencia
+lastimado,Violencia
+violacion,Violencia
+violada,Violencia
+violencia,Violencia
+violado,Violencia
+agredido,Violencia
+agresion,Violencia
+ayudar a una nena abusada,Violencia
+informacion por abuso,Violencia
+golpeado,Violencia
+golpeada,Violencia
