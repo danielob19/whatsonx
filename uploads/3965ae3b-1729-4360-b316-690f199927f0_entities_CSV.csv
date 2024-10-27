@@ -1,0 +1,863 @@
+acaloramiento,acalorado,acalorado
+acaloramiento,ruborizo,ruborizo
+acaloramiento,rubor,rubor 
+acaloramiento,rojo,rojo
+acaloramiento,roja,roja
+acaloramiento,acalorada,acalorada
+acaloramiento,colorado,colorado
+acaloramiento,colorada,colorada
+acaloramiento,acaloramiento,acaloramiento
+agobio,saturado,saturado
+agobio,agobiada,agobiada
+agobio,agobiado,agobiado
+agobio,agobio,agobio
+agobio,embotada,embotada
+agobio,embotado,embotado
+agobio,emobote,embote
+agobio,saturacion,saturacion
+agobio,saturada,saturada
+agotamiento,cansancio animico,cansancio animico 
+agotamiento,cansado,cansado
+agotamiento,canso,canso
+agotamiento,estado de agotamiento,estado de agotamiento
+agotamiento,falta de energias,falta de energias
+agotamiento,cansada,cansada
+agotamiento,fatigado,fatigado
+agotamiento,fatigada,fatigada
+agotamiento,agotado
+agotamiento,agotada,agotada
+agotamiento,fatiga,fatiga
+agotamiento,agotamiento,agotamiento
+agotamiento,cansancio,cansancio
+ahogo,sofocado,sofocado
+ahogo,sofocada,sofocada
+ahogo,siento ahogado,siento ahogado
+ahogo,sofoco,sofoco
+ahogo,sofocos,sofocos
+ahogo,falta de aire,falta de aire
+ahogo,ahogada,ahogada
+ahogo,ahogado,ahogado
+ahogo,ahogo,ahogo
+ahogo,ahogos,ahogos
+ahogo,siento ahogada,siento ahogada
+ahogo,faltar el aire,faltar el aire
+ahogo,faltas de aire,faltas de aire
+ahora,hoy,hoy
+ahora,ahora,ahora
+ahora,urgente,urgente 
+angustia,angustiada,angustiada
+angustia,angustiado,angustiado
+angustia,angustia,angustia
+año,2020
+año,2021
+año,2022
+ansiedad,ansiedad,ansiedad 
+ansiedad,ansioso,ansioso 
+ansiedad,ansiosa,ansiosa 
+ataquePanico,ataque de panico,ataque de panico
+ataquePanico,paniqueo,paniqueo
+ataquePanico,terror,terror
+ataquePanico,panico,panico
+ataquePanico,aterrorizo,aterrorizo
+ataquePanico,aterroriza,aterroriza
+ataquePanico,ataques de panico,ataques de panico 
+autoexigencia,autocritica,autocritica
+autoexigencia,autoexigente,autoexigente
+autoexigencia,critica,critica
+autoexigencia,critico,critico
+autoexigencia,autoexigencia,autoexigencia
+autoexigencia,autocritico,autocritico
+bajAutoestima,inferioridad,inferioridad
+bajAutoestima,autodesvalorizacion,autodesvalorizacion
+bajAutoestima,baja autoestima,baja autoestima
+bajAutoestima,desvalorizacion,desvalorizacion
+bajAutoestima,desvalorizo,desvalorizo
+bajAutoestima,inferior,inferior
+bajAutoestima,no valgo,no valgo
+bajAutoestima,sentimiento de inferioridad,sentimiento de inferioridad
+bajAutoestima,sentimientos de inferioridad,sentimientos de inferioridad
+bajAutoestima,siento menos,siento menos
+bajAutoestima,sin autoestima,sin autoestima
+bajAutoestima,valgo poco,valgo poco
+bajon,bajoneado,bajoneado 
+bajon,bajon,bajon
+bajon,estoy bajoneado,estoy bajoneado
+bajon,estoy bajoneada,estoy bajoneada
+bajon,bajono,bajono
+bajon,bajones,bajones
+bajon,bajoneada,bajoneada
+bloqueoEmocional,bloqueos,bloqueos
+bloqueoEmocional,bloqueos emocionales,bloqueos emocionales
+bloqueoEmocional,en blanco,en blanco
+bloqueoEmocional,mente en blanco,mente en blanco
+bloqueoEmocional,bloqueado,bloqueado
+bloqueoEmocional,bloqueada,bloqueada
+bloqueoEmocional,no puedo pensar,no puedo pensar
+bloqueoEmocional,bloqueo emocional,bloqueo emocional
+bloqueoEmocional,bloqueo,bloqueo
+consulta,consultita,consultita
+consulta,curiosidad,curiosidad
+consulta,duda,duda
+consulta,consultar una,consultar una
+consulta,consultar un,consultar un
+consulta,consultarte,consultarte
+consulta,consultarme,consultarme
+consulta,consultar a una,consultar a una 
+consulta,consultar a un,consultar a un 
+consulta,consultar,consultar
+consulta,consulta mas,consulta mas
+consulta,consulta,consulta
+consulta,averiguar,averiguar
+consulta,averiguacion,averiguacion
+consulta,quiero averiguar,quiero averiguar
+consulta,preguntarte,preguntarte
+consulta,preguntarme,preguntarme
+consulta,preguntar,preguntar
+consulta,pregunta,pregunta
+consulta,otra consulta,otra consulta
+consulta,inquietud,inquietud
+consulta,hecerte una pregunta,hacerte una pregunta
+consulta,hacerte una consulta,hacerte una consulta
+costo,precio,precio
+costo,vale,vale
+costo,valor,valor
+costo,costo,costo
+costo,costo de consulta,costo de consulta 
+costo,costo de la consulta,costo de la consulta
+costo,cuanto cuesta,cuanto cuesta
+costo,cuanto sale,cuanto sale
+costo,cuesta,cuesta
+cualquiera,cualquiera,cualquiera
+cualquiera,anything_else,anything_else
+depresion,deprimida,deprimida
+depresion,deprimido,deprimido 
+depresion,depresión,depresión
+derrota,derrota,derrota
+derrota,vencida,vencida
+derrota,vencido,vencido 
+derrota,sobrepasado,sobrepasado 
+derrota,sobrepasada,sobrepasada
+derrota,sentimiento de derrota,sentimiento de derrota
+derrota,perdedora,perdedora
+derrota,perdedor,perdedor
+derrota,derrotado,derrotado 
+derrota,derrotada,derrotada
+derrota,abatida,abatida
+derrota,abatido,abatido 
+desaliento,desmoralizado,desmoralizado 
+desaliento,desconsolado,desconsolado
+desaliento,desconsolada,desconsolada
+desaliento,desaliento,desaliento
+desaliento,desalentado,desalentado
+desaliento,desalentada,desalentada
+desaliento,sin consuelo,sin consuelo
+desaliento,sin aliento,sin aliento
+desaliento,sentimientos de desaliento,sentimientos de desaliento
+desaliento,desmoralizada,desmoralizada 
+desanimo,estado de desanimo,estado de desanimo
+desanimo,desmotivado,desmotivado 
+desanimo,desmotivada,desmotivada 
+desanimo,desgano,desgano
+desanimo,desanimada,desanimada
+desanimo,desanimado,desanimado 
+desanimo,desanimo,desanimo 
+desanimo,desganada,desganada
+desanimo,desganado,desganado 
+desanimo,sin motivacion,sin motivacion
+desanimo,sin ganas,sin ganas 
+desanimo,sin animo,sin animo
+desanimo,poco entusiasmo,poco entusiasmo
+desanimo,poco entusiamado,poco entusiamado
+desanimo,poco entusiamada,poco entusiamada
+desanimo,no estoy motivado,no estoy motivado
+desanimo,no estoy motivada,no estoy motivada
+desanimo,falta de motivacion,falta de motivacion
+desanimo,falta de animo,falta de animo 
+desilusion,sentimiento de decepcion,sentimiento de decepcion
+desilusion,decepcion,decepcion
+desilusion,decepcionada,decepcionada
+desilusion,decepcionado,decepcionado
+desilusion,decepcione,decepcione
+desilusion,desencantada,desencantada
+desilusion,desencantado,desencantado
+desilusion,desencanto,desencanto
+desilusion,desilusion,desilusion
+desilusion,desilusionada,desilusionada
+desilusion,desilusionado,desilusionado
+desilusion,desilusione,desilusione
+desilusion,sensacion de decepcion,sensacion de decepcion
+desinteres,desinteres,desinteres
+desinteres,desinteresado,desinteresado
+desinteres,desinteresada,desinteresada 
+desmayo,desmayos,desmayos
+desmayo,sin conocimiento,sin conocimiento
+desmayo,pierdo el conocimiento,pierdo el conocimiento
+desmayo,episodios de desmayos,episodios de desmayos
+desmayo,desvanezco,desvanezco
+desmayo,desvanecimiento,desvanecimiento
+desmayo,desvanecido,desvanecido
+desmayo,desvanecida,desvanecida
+desmayo,desvanecí,desvanecí
+desmayo,desvaneci,desvaneci
+desmayo,desvanecer,desvanecer
+desmayo,desmayo,desmayo
+desmayo,desmaye,desmaye
+desmayo,desmayando,desmayando 
+desmayo,desmayado,desmayado
+desorientacion,desconcertada,desconcertada
+desorientacion,desconcertado,desconcertado
+desorientacion,desorientacion,desorientacion
+desorientacion,desorientada,desorientada
+desorientacion,desorientado,desorientado
+desorientacion,estado de desorientacion,estado de desorientacion
+desorientacion,momentos de desorientacion,momentos de desorientacion
+desorientacion,perplejo,perplejo 
+desorientacion,sensacion de desorientacion,sensacion de desorientacion
+desorientacion,confundida,confundida
+desorientacion,confundido,confundido
+desorientacion,perpleja,perpleja
+desorientacion,perplejidad,perplejidad 
+discusion,discute,discute
+discusion,situaciones de discusion,situaciones de discusion
+discusion,peleo,peleo
+discusion,peleas,peleas
+discusion,peleamos,peleamos
+discusion,momentos de discusion,momentos de discusion
+discusion,episodios de discusion,episodios de discusion
+discusion,discuto,discuto
+discusion,discutis,discutis
+discusion,discutiendo,discutiendo
+discusion,discuten,discuten
+discusion,discusiones,discusiones
+discusion,discusion,discusion
+estancamiento,atascado,atascado
+estancamiento,atascada,atascada 
+estancamiento,detencion,detencion
+estancamiento,atasco,atasco
+estancamiento,detenida,detenida 
+estancamiento,detenido,detenido 
+estancamiento,empantanada,empantanada
+estancamiento,empantanado,empantanado
+estancamiento,estancada,estancada 
+estancamiento,estancado,estancado 
+estancamiento,estancamiento,estancamiento
+estancamiento,no avance,no avance
+estancamiento,no avanzo,no avanzo
+estres,estresada,estresada
+estres,estresado,estresado
+estres,estrés,estrés
+estres,estres,estres
+faltaConcentracion,concentrar,concentrar 
+faltaConcentracion,concentrarme,concentrarme
+faltaConcentracion,concentro,concentro
+faltaConcentracion,dispersa,dispersa
+faltaConcentracion,dispersion,dispersion
+faltaConcentracion,falta de concentracion,falta de concentracion
+faltaConcentracion,falta de atencion,falta de atencion
+faltaConcentracion,falta concentracion,falta concentracio
+faltaConcentracion,falta atencion,falta atencion
+faltaConcentracion,divague,divague
+faltaConcentracion,divago,divago
+faltaConcentracion,divagando,divagando
+faltaConcentracion,distraigo,distraigo
+faltaConcentracion,distraído,distraído
+faltaConcentracion,distraido,distraido 
+faltaConcentracion,distraída,distraída
+faltaConcentracion,distraida,distraida
+faltaConcentracion,dispersión,dispoersión
+faltaConcentracion,distraccion,distraccion
+faltaConcentracion,disperso,disperso
+faltaConcentracion,atención,atención
+faltaConcentracion,concentracion,concentracion
+faltaConcentracion,problemas de atencion,problemas de atencion
+faltaConcentracion,problemas de concentracion,problemas de concentracion 
+faltaConcentracion,concentración,concentración
+fecha,junio de este año,junio
+fecha,junio del 2020,junio 2020,junio de 2020
+fecha,junio del 2021,junio 2021,junio de 2021
+fecha,junio del 2022,junio 2022,junio de 2022
+fecha,marzo de este año,marzo
+fecha,marzo del 2020,marzo 2020,marzo de 2020
+fecha,marzo del 2021,marzo 2021,marzo de 2021
+fecha,marzo del 2022,marzo 2022,marzo de 2022
+fecha,mayo de este año,mayo
+fecha,mayo del 2020,mayo 2020,mayo de 2020,mayo del 2020
+fecha,mayo del 2021,mayo 2021,mayo de 2021,mayo del 2021
+fecha,mayo del 2022,mayo 2022,mayo de 2022,mayo del 2022
+fecha,noviembre de este año,noviembre
+fecha,noviembre del 2020,noviembre 2020,noviembre de 2020,noviembre del 2020
+fecha,noviembre del 2021,noviembre 2021,noviembre de 2021,noviembre del 2021
+fecha,octubre de este año,octubre 
+fecha,octubre del 2020,octubre 2020,octubre de 2020,octubre del 2020
+fecha,octubre del 2021,octubre 2021,octubre de 2021,octubre del 2021
+fecha,setiembre de este año,septiembre ,setiembre 
+fecha,setiembre del 2020,setiembre 2020,setiembre de 2020,setiembre del 2020
+fecha,setiembre del 2021,setiembre 2021,setiembre de 2021,setiembre del 2021
+fecha,enero del 2022,enero 2022,enero de 2022
+fecha,diciembre del 2021,diciembre 2021,diciembre de 2021
+fecha,diciembre del 2020,diciembre 2020,diciembre de 2020
+fecha,diciembre de este año,diciembre
+fecha,agosto del 2021,agosto 2021,agosto de 2021
+fecha,agosto del 2020,agosto 2020,agosto de 2020
+fecha,agosto de este año,agosto 
+fecha,abril del 2022,abril 2022,abril de 2022
+fecha,abril del 2021,abril 2021,abril de 2021
+fecha,abril del 2020,abril 2020,abril de 2020
+fecha,abril de este año,abril
+fecha,2022,2022,de 2022,del 2022
+fecha,2021,2021,de 2021,del 2021
+fecha,2020,2020,de 2020,del 2020
+fecha,julio del 2022,julio 2022,julio de 2022
+fecha,julio del 2020,julio 2020,julio de 2020
+fecha,julio de este año,julio
+fecha,febrero del 2022,febrero 2022,febrero de 2022
+fecha,febrero del 2021,febrero 2021,febrero de 2021
+fecha,febrero del 2020,febrero 2020,febrero de 2020
+fecha,julio del 2021,julio 2021,julio de 2021
+fecha,febrero de este año,febrero 
+fecha,enero del 2021,enero 2021,enero de 2021
+fecha,enero del 2020,enero 2020,enero de 2020
+fecha,enero de este año,enero
+fecha,diciembre del 2022,diciembre 2022,diciembre de 2022
+flojedadCorporal,debilidad fisica,debilidad fisica 
+flojedadCorporal,flojedad corporal,flojedad corporal 
+flojedadCorporal,flojedad cuerpo,flojedad cuerpo
+flojedadCorporal,flojedad en el cuerpo,flojedad en el cuerpo
+flojedadCorporal,flojo,flojo 
+flojedadCorporal,falta de fuerza animica,falta de fuerza animica
+flojedadCorporal,falta de fuerzas,falta de fuerzas
+flojedadCorporal,faltan fuerzas,faltan fuerzas
+flojedadCorporal,flojo cuerpo,flojo cuerpo
+flojedadCorporal,debilidad en el cuerpo,debilidad en el cuerpo
+flojedadCorporal,debilidad corporal,debilidad corporal
+flojedadCorporal,debilidad anímica,debilidad anímica
+flojedadCorporal,debil,debil
+flojedadCorporal,pesadez física,pesadez física 
+flojedadCorporal,mareos,mareos
+flojedadCorporal,mareo,mareo
+flojedadCorporal,mareado,mareado
+flojedadCorporal,mareada,mareada
+flojedadCorporal,pesadez corporal,pesadez corporal
+flojedadCorporal,sin fuerzas,sin fuerzas
+fobia,fobia,fobia
+frustracion,frustracion,frustracion 
+frustracion,frustrado,frustrado
+frustracion,frustrada,frustrada 
+frustracion,fracazado,fracazado
+frustracion,fracazada,fracazada
+frustracion,fracaso,fracaso
+frustracion,fracasado,fracasado
+frustracion,fracasada,fracasada
+grandeza,sentimientos de superioridad,grandeza,sentimientos grandeza,superior
+horario,horario,horario
+horario,hora,hora
+horario,horarios de atencion,horarios de atencion
+horario,dia,dia
+horario,dias de atencion,dias de atencion
+horario,horarios,horarios
+horario,horario de atencion,horario de atencio
+impotencia,impotente,impotente
+impotencia,impotencia,impotencia
+impotencia,sentimiento de impotencia,sentimiento de impotencia
+impulso,impulsivo,impulsivo
+impulso,impulso,impulso
+impulso,impulsos,impulsos
+impulso,soy impulsiva,soy impulsiva 
+impulso,soy impulsivo,soy impulsivo 
+impulso,soy muy impulsiva,soy muy impulsiva
+impulso,soy muy impulsivo,soy muy impulsivo 
+impulso,conductas impulsivas,conductas impulsivas 
+impulso,impulsiva,impulsiva
+inestabilidad,cambios de animo,cambios de animo 
+inestabilidad,inestabilidad,inestabilidad 
+inestabilidad,inestabilidad emocional,inestabilidad emocional 
+inestabilidad,inestable,inestable
+inestabilidad,cambio de animo,cambio de animo 
+inestabilidad,cambios emocionales,cambios emocionales 
+informacion,información,información
+informacion,informacion,informacion
+informacion,mas informacion,mas informacion
+informacion,más información,más información
+inseguridad,inseguridad,inseguridad
+inseguridad,insegura,insegura
+inseguridad,sentimientos de inseguridad,sentimientos de inseguridad 
+inseguridad,inseguro,inseguro 
+insomnio,sin sueño,sin sueño
+insomnio,no puedo dormir,no puedo dormir
+insomnio,insomnio,insomnio
+irritacion,molestan,molestan
+irritacion,bronca,bronca
+irritacion,enoja,enoja 
+irritacion,enojada,enojada
+irritacion,enojado,enojado 
+irritacion,enojo,enojo
+irritacion,enojos,enojos
+irritacion,fastidia,fastidia
+irritacion,fastidiada,fastidiada
+irritacion,fastidiado,fastidiado
+irritacion,fastidio,fastidio 
+irritacion,intelerancia,intolerancia
+irritacion,intolerante,intolerante
+irritacion,irrita,irrita
+irritacion,irritabilidad,irritabilidad
+irritacion,irritacion,irritacion
+irritacion,irritada,irritada
+irritacion,irritado,irritado
+irritacion,irritan,irritan
+irritacion,mal humor,mal humor 
+irritacion,malhumor,malhumor
+irritacion,malhumorada,malhumorada 
+irritacion,malhumorado,malhumorado 
+irritacion,molesta,molesta
+irritacion,molesto,molesta
+llanto,lloro,lloro ,lloro mucho
+llanto,llorar,llorar 
+llanto,llorando,llorando
+llanto,llanto,llanto
+llanto,crisis de llanto,crisis de llanto 
+lugar,donde estan,donde estan
+lugar,donde esta,donde esta
+lugar,donde es,donde es
+lugar,donde atienden,donde atienden
+lugar,donde atendes,dondo atendes 
+lugar,donde,donde
+lugar,domicilio,domicilio
+lugar,direccion,direccion
+lugar,hacen consulta presencial,hacen consulta presencial
+lugar,hacen consultas presenciales,hacen consultas presenciales
+lugar,hacen presencial,hacen presencial
+lugar,hacen sesiones presenciales,hacen sesiones presenciales
+lugar,hacen tratamiento presencial,hacen tratamiento presencial
+lugar,lugar,lugar
+lugar,presencial,presencial
+lugar,presenciales,presenciales
+lugar,zona,zona
+lugarAtencion,lugar atencion,lugar atencio
+lugarAtencion,lugar de atencion,lugar de atencion
+miedo,asuste,asuste
+miedo,atemorizo,atemorizo
+miedo,intenso miedo,intenso miedo
+miedo,miedo,miedo
+miedo,miedo intenso,miedo intenso 
+miedo,miedos,miedo
+miedo,mucho miedo,mucho miedo
+miedo,preocupaciones,preocupacion
+miedo,temor,temor
+miedo,temores,temores
+miedo,asusto,asusto
+miedo,asustada,asustada
+miedo,asustado,asustado
+miedo,atemorice,atemorice
+nauseas,nauseas,arcada,arcadas,asco,nausea,repugnancia,vomito,vomitos
+nervios,nerviosismo,nerviosismo
+nervios,nerviosa,nerviosa
+nervios,nervios,nervios
+nervios,tension emocional,tension emocional
+nervios,tension animica,tension animica 
+nervios,tensionado,tensionado
+nervios,tensionada,tensionada
+nervios,tension,tension
+nervios,nervioso,nervioso 
+no,no necesito,no necesito
+no,no hacen,no hacen
+no,no hace,no hace
+no,no atienden,no atienden
+no,no haces,no haces
+no,no quiero,no quiero
+no,incorrecto,incorrecto
+no,negativo,negativo
+no,ninguno,ninguno 
+no,no,no
+no,no atendes,no atendes
+no,no atiende,no atiende
+noAtienden,atiende presencial,atiende presencial
+noAtienden,atendes presencial,atendes presencial
+noAtienden,no atienden presencial,no atienden presencial
+noAtienden,no hacen presencial,no hacen presencial
+noAtienden,no atienden,no atienden
+noAtienden,no atendes,no atendes
+noAtienden,no atiende,no atiende
+noAtienden,atienden presencial,atienden presencial
+noComprendo,no comprendo,no comprendo
+noComprendo,que queres decir,que queres decir
+noComprendo,que te referis,que te referis
+noComprendo,no estoy entendiendo,no estoy entendiendo
+noComprendo,no entiendo,no entiendo
+noSe,no se me ocurre,no se me ocurre
+noSe,no tengo la menor idea,no tengo la menor idea
+noSe,desconozco,desconozco 
+noSe,no sé,no sé
+noSe,no tengo idea,no tengo idea
+noSe,que se yo,que se yo
+noSe,ni idea,ni idea
+noSe,no me imagino,no me imagino 
+noSe,lo ignoro,lo ignoro
+noSe,no se,no se 
+obsesion,pensamientos obsesivos,conductas repetitivas,ideas constantes,ideas obsesivas,ideas que no se van,obsesion,obsesiones,pensamientos constantes,pensamientos que no se van,rituales
+ocupacion,ecólogo
+ocupacion,secretaria
+ocupacion,sociólogo
+ocupacion,soldador
+ocupacion,taxista
+ocupacion,técnico de sonido
+ocupacion,técnico en turismo
+ocupacion,tornero
+ocupacion,traductor
+ocupacion,vendedor
+ocupacion,verdulero
+ocupacion,vigilante
+ocupacion,peluquero
+ocupacion,peletero
+ocupacion,pastor ganadero
+ocupacion,pastor
+ocupacion,paramédico
+ocupacion,panadero
+ocupacion,paleontólogo
+ocupacion,obrero
+ocupacion,músico
+ocupacion,militar
+ocupacion,médico
+ocupacion,mecánico
+ocupacion,matemático
+ocupacion,locutor
+ocupacion,lingüista
+ocupacion,leñador
+ocupacion,lechero
+ocupacion,lavandero
+ocupacion,kiosquero
+ocupacion,kioskero
+ocupacion,ingeniero
+ocupacion,impresor
+ocupacion,historiador
+ocupacion,geógrafo
+ocupacion,ganadero
+ocupacion,frutero
+ocupacion,fontanero o plomero
+ocupacion,fletero
+ocupacion,físico
+ocupacion,filósofo
+ocupacion,filólogo
+ocupacion,farmacólogo
+ocupacion,exterminador
+ocupacion,escultor
+ocupacion,escritor
+ocupacion,enfermero
+ocupacion,electricista
+ocupacion,editor
+ocupacion,economista
+ocupacion,sastre,sastre
+ocupacion,deshollinador
+ocupacion,contador
+ocupacion,computista
+ocupacion,cocinero
+ocupacion,cirujano
+ocupacion,cerrajero
+ocupacion,carpintero,ebanista
+ocupacion,carnicero
+ocupacion,cajero
+ocupacion,botánico
+ocupacion,biólogo
+ocupacion,bibliotecólogo
+ocupacion,barrendero
+ocupacion,barbero
+ocupacion,artesano
+ocupacion,arquitecto
+ocupacion,archivólogo
+ocupacion,antropólogo,etnohistoriador,historiador,prehistoriador
+ocupacion,animador
+ocupacion,almacenero
+ocupacion,albañil
+ocupacion,agricultor,granjero,vinicultor,viticultor,vitivinicultor
+ocupacion,administrador,archivero,auditor
+ocupacion,abogado,abogada,abogado ,criminalista,en derecho penal ,juez,jurista,letrado,magistrado,penalista 
+ocupacion,periodista
+ocupacion,pescador
+ocupacion,pintor de brocha gorda
+ocupacion,policia
+ocupacion,policía
+ocupacion,politólogo
+ocupacion,profesor
+ocupacion,psicoanalista
+ocupacion,psicólogo,psicologo 
+ocupacion,químico
+ocupacion,radiólogo
+ocupacion,remisero
+ocupacion,repartidor
+online,tratamiento online,tratamiento online
+online,tratamiento virtual,tratamiento virtual
+online,videoconsulta,videoconsulta
+online,videollamada,videollamada
+online,online,online
+online,virtual,virtual
+opinion,vos que opinas,vos que opinas
+opinion,Ud. que opina,Ud. que opina
+opinion,ud que le parece,ud que le parece
+opinion,que opinas,que opinas
+opinion,cual es tu opinion,cual es tu opinion
+opinion,cual es su opinion,cual es su opinion
+otraRazon,otro motivo,otro motivo 
+otraRazon,otros motivos
+otraRazon,otra causa
+otraRazon,otra razon,otra razon 
+otraRazon,otras causas
+otraRazon,otras razones
+palpitaciones,palpitaciones,acelera el corazón,late fuerte,latidos fuertes,palpitación
+paralisis,me quede dura,me quede dura
+paralisis,dura,dura
+paralisis,me quede duro,me quede duro
+paralisis,helada,helada
+paralisis,helado,helado
+paralisis,inmovil,inmovil
+paralisis,inmovilizada,inmovilizada
+paralisis,inmovilizado,inmovilizado
+paralisis,paralizado,paralizado
+paralisis,paralizada,paralizada
+paralisis,paralisis corporal,paralisis corporal
+paralisis,paralisis,paralisis
+paralisis,no me podía mover,no me podía mover
+paralisis,me quede helado,me quede helado
+paralisis,me quede helada,me quede helada
+paralisis,duro,duro
+paralisis,sin movimiento,sin movimiento
+paralisis,petrificado,petrificado
+paralisis,petrificada,petrificada
+perdida,perdi,perdi
+perdida,abandonado,abandonado
+perdida,abandono,abandono
+perdida,dejada,dejada
+perdida,dejado,dejado
+perdida,dejó,dejó
+perdida,fallecio,fallecio
+perdida,murio,murio
+perdida,perdí,perdí 
+perdida,perdida,perdida
+perdida,se fue,se fue
+perdida,sensacion de abandono,sensacion de abandono
+perdida,sentimiento de perdida,sentimiento de perdida
+perdida,sentimiento de abandono,sentimiento de abandono 
+perdida,partió,partió
+pesadilla,pesadillas,pesadilla 
+pesadumbre,pesadumbre,apesadumbrada,apesadumbrado ,pesar
+prepaga,oste,oste
+prepaga,centro medico,centro medico
+prepaga,ioma,ioma
+prepaga,luis pasteur,luis pasteur
+prepaga,medicina prepaga,medicina prepaga
+prepaga,medicus,medicus
+prepaga,obra social,obra social
+prepaga,osba,osba
+prepaga,osde,osde
+prepaga,prepaga,prepaga
+problemaMemoria,falta memoria,falta memoria
+problemaMemoria,desmemoriado,desmemoriado 
+problemaMemoria,desmemoriada,desmemoriada 
+problemaMemoria,amnesia,amnesia
+problemaMemoria,problemas de memoria,problemas de memoria
+problemaMemoria,problema de memoria,problema de memoria
+problemaMemoria,olvidos,olvidos
+problemaMemoria,olvido,olvido 
+problemaMemoria,memoria,memoria 
+problemaMemoria,lagunas,lagunas 
+problemaMemoria,laguna,laguna
+problemaMemoria,falta de memoria,falta de memoria
+psicologo,psicologo
+psicologo,psicologa
+psicoterapia,psicoterapia,psicoterapia
+psicoterapia,terapia individual,terapia individual 
+psiquiatra,un psiquiatra,un psiquiatra
+psiquiatra,una psiquiatra,una psiquiatra
+psiquiatra,psiquiatra,psiquiatra
+psiquiatra,con un psiquiatra,con un psiquiatra 
+psiquiatra,con una psiquiatra,con una psiquiatra
+saludo,Que tal,que tal
+saludo,Buenas tardes,buenas tardes 
+saludo,Buen día,buen día
+saludo,Hola que tal,hola que tal
+saludo,Hola,hola
+saludo,Buenas noches,buenas noches
+senCulpa,sentimientos de culpa,sentimientos de culpa
+senCulpa,autorreproche,autorreproche
+senCulpa,autorreproches,autorreproches
+senCulpa,culpa,culpa
+senCulpa,culpable,culpable
+senCulpa,culpas,culpas
+senCulpa,culpogena,culpogena
+senCulpa,culpogeno,culpogeno 
+senCulpa,remordimiento,remordimiento
+senCulpa,reproche,reproche
+senCulpa,reprocho,reprocho
+senCulpa,sentimiento de culpa,sentimiento de culpa
+senCulpa,sentimiento de remordimiento,sentimiento de remordimiento 
+senCulpa,sentimientos de remordimiento,sentimientos de remordimiento
+sensEmocional,excesiva sensibilidad,excesiva sensibilidad
+sensEmocional,sensibilidad emocional,sensibilidad emocional
+sensEmocional,susceptible,susceptible
+sensEmocional,susceptibilidad,susceptibilidad
+sensEmocional,sensible,sensible
+sensEmocional,sensibilidad,sensibilidad
+sensEmocional,muy suceptible,muy suceptible
+sensEmocional,muy sensible,muy sensible
+sensEmocional,hipersensible,hipersensible
+sensEmocional,hipersensibilidad,hipersensibilidad
+sensMuerte,morir,morir
+sensMuerte,moria,moria
+sensMuerte,sensaciones de muerte,sensaciones de muerte
+sensMuerte,sensacion de muerte,sensacion de muerte
+sensMuerte,pensamientos de muerte,pensamientos de muerte
+sensMuerte,estoy muriendo,estoy muriendo
+sensMuerte,ideas de muerte,ideas de muerte
+sensMuerte,muriendo,muriendo
+sensMuerte,muerte,muerte
+sensMuerte,muero,muero
+si,ok,ok
+si,perfecto,perfecto
+si,obvio,obvio
+si,me interesaria,me interesaria
+si,me interesa,me interesa
+si,exacto,exacto
+si,naturalmente,naturalmente
+si,logico,logico
+si,afirmativo,afirmativo
+si,bueno,bueno
+si,correcto,correcto
+si,dale,dale
+si,de una,de una
+si,sip,sip
+si,si,si
+si,quiero un,quiero un
+si,quiero,quiero
+si,por supuesto,por supuesto 
+siComprendo,ya entiendo,ya entiendo
+siComprendo,ya entendi,ya entendi
+siComprendo,ya comprendo,ya comprendo
+siComprendo,ya comprendi,ya comprendi
+siComprendo,entiendo,entiendo
+siComprendo,comprendo,comprendo
+siComprendo,ahh ya comprendo,ahh ya comprendo
+siComprendo,ahh,ahh
+sintomaFisico,presión alta,presion alta
+sintomaFisico,dolor en el pecho,dolor en el pecho 
+sintomaFisico,epoc,epoc
+sintomaFisico,glucosa,glucoza
+sintomaFisico,diabetes,diabete
+sintomaFisico,atenolol,atenolol
+sintomaFisico,sintoma fisico,sintoma fisico 
+sintomaFisico,sintomas fisicos,sintomas fisicos
+sintomaFisico,tiroide,tiroide
+sintomaFisico,dolor en el cuerpo,dolor en el cuerpo
+sintomaFisico,dolor de cabeza,dolor d cabeza
+sintomaFisico,dolor,dolor 
+sintomaFisico,ulcera,ulcera
+sintomaFisico,vista borrosa,vista borroza 
+sintomaFisico,hipertensión,hipertension
+sintomaFisico,metformina,metformina
+soledad,aislada,aislada
+soledad,aislado,aislado
+soledad,aislamiento,aislamiento
+soledad,aislo,aislo
+soledad,alejamiento,alejamiento
+soledad,distancia,distancia
+soledad,distanciamiento,distanciamiento
+soledad,distanciarme,distanciarme
+soledad,lejos,lejos
+soledad,solo,solo
+soledad,sentimientos de soledad,sentimientos de soledad
+soledad,sola,sola
+soledad,soledad,soledad
+sos,Ud. es psicologo,Ud. es psicologo 
+sos,ud es psiquiatra,ud es psiquiatra
+sos,vos sos psicologo,vos sos psicologo
+sos,vos sos,vos sos
+sos,eres,eres
+sos,es psicologo ud,es psicologo ud
+sos,es psiquiatra ud,es psiquiatra ud
+sos,tu eres,tu eres
+sos,sos,sos
+sos,Ud es,Ud es
+sos,Ud. es,Ud. es
+sos,ud es el psicologo,ud es el psicologo 
+sos,ud es el psiquiatra,ud es el psiquiatra
+sos,Ud es psicologo,Ud es psicologo
+temblores,temblando,temblando
+temblores,tiemblo,tiemblo
+temblores,temblores fisicos,temblores fisicos
+temblores,temblores corporales,temblores corporales
+temblores,temblores,temblores
+temblores,temblor,temblor
+temblores,tiembla,tiembla
+terapia,terapia,terapia
+terapiaPareja,pareja,pareja
+terapiaPareja,terapia pareja,terapia pareja
+terapiaPareja,terapia de pareja,terapia de pareja
+tics,tics,tic
+timidez,inhibo,inhibo
+timidez,timida,timida 
+timidez,timidez,timidez
+timidez,timido,timido 
+timidez,verguenza,verguenza
+timidez,vergonzoso,vergonzoso
+timidez,vergonzosa,vergonzosa
+timidez,inhibicion,inhibicion
+transpiracion,sudo,sudo
+transpiracion,transpiracion,transpiracion
+transpiracion,transpirar,transpirar
+transpiracion,transpiro,transpiro
+transpiracion,sudar,sudar
+transpiracion,sudor,sudor
+transpiracion,sudoracion,sudoracion
+transpiracion,transpira,transpira
+tratamiento,tratamiento,tratamiento
+tratamientoPsicologico,psicologico,psicologico
+tratamientoPsicologico,tratamiento psicologico,tratamiento psicologico 
+tratamientoPsiquiatrico,tratamiento psiquiatrico,tratamiento psiquiatrico
+tratamientoPsiquiatrico,psiquiatrico,psiquiatrico
+tratamientoPsiquiatrico,medicacion,medicacion
+tristeza,compungido,compungido
+tristeza,apenado,apenado
+tristeza,apenada,apenada
+tristeza,afligido,afligido
+tristeza,afligida,afligida
+tristeza,aflicción,aflicción
+tristeza,compungida,compungida
+tristeza,entristecida,entristecida
+tristeza,entristecido,entristecido
+tristeza,pena,pena
+tristeza,triste,triste
+tristeza,tristeza,tristeza
+turno,turno con psicologo,turno con psicologo
+turno,turno con psicologa,turno con psicologa
+turno,turno,turno 
+turno,citas,citas
+turno,cita,cita
+turno,turnos,turnos
+turno,una cita,una cita
+turno,un turno,un turno
+turno,turno psiquiatra,turno psiquiatra
+turno,turno psicologo,turno psicologo
+turno,turno psicologa,turno psicologa
+turno,turno con un psiquiatra,turno con un psiquiatra
+turno,turno con un psicologo,turno con un psicologo
+turno,turno con una psiquiatra,turno con una psiquiatra
+turno,turno con una psicologa,turno con una psicologa
+turno,turno con psiquiatra,turno con psiquiatra
+vacio,me siento vacia,me siento vacia 
+vacio,sentimiento de vacío,hundida,hundido,rehundida,rehundido,sin vida,vacío,vida vacía
+vacio,vacia,vacia 
+vacio,vacio,vacio 
+vacio,me siento vacio,me siento vacio 
+violencia,violentada,violentada
+violencia,golpeada,golpeada
+violencia,agresion,agresion
+violencia,agredido,agredido
+violencia,agredida,agredida
+violencia,abuso,abuso
+violencia,abusado,abusado
+violencia,abusada,abusada
+violencia,violentado,violentado
+violencia,violencia,violencia
+violencia,violado,violado
+violencia,violada,violada
+violencia,violacion,violacion
+violencia,lastimado,lastimado
+violencia,lastimada,lastimada
+violencia,golpeado,golpeado
