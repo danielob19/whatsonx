@@ -30,3 +30,49 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Servidor corriendo en el puerto ${port}`);
 });
+const axios = require('axios');
+const AssistantV2 = require('ibm-watson/assistant/v2');
+const { IamAuthenticator } = require('ibm-watson/auth');
+
+// OpenAI Function
+async function getGPTResponse(prompt) {
+  try {
+    const response = await axios.post('https://api.openai.com/v1/completions', {
+      prompt: prompt,
+      model: 'gpt-3.5-turbo',
+      max_tokens: 100,
+    }, {
+      headers: {
+        'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`
+      }
+    });
+    return response.data.choices[0].text;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+// IBM Watson Function
+const assistant = new AssistantV2({
+  version: '2023-04-01',
+  authenticator: new IamAuthenticator({
+    apikey: process.env.IBM_API_KEY,
+  }),
+  serviceUrl: process.env.IBM_SERVICE_URL,
+});
+
+async function sendMessageToWatson(sessionId, message) {
+  try {
+    const response = await assistant.message({
+      assistantId: 'tu_assistant_id',
+      sessionId: sessionId,
+      input: {
+        'message_type': 'text',
+        'text': message,
+      },
+    });
+    return response.result.output.generic[0].text;
+  } catch (error) {
+    console.error(error);
+  }
+}
