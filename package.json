@@ -1,0 +1,16 @@
+{
+  "name": "proyecto-csv",
+  "version": "1.0.0",
+  "description": "Proyecto para manejar archivos CSV",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "csv-parser": "^3.0.0",
+    "express": "^4.18.2",
+    "ibm-watson": "^9.1.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
