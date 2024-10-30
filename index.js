@@ -5,7 +5,7 @@ const AssistantV2 = require('ibm-watson/assistant/v2');
 const { IamAuthenticator } = require('ibm-watson/auth');
 const app = express();
 
-app.use(express.json()); // Para parsear JSON en las solicitudes
+app.use(express.json()); // Parsear JSON en las solicitudes
 
 // Ruta raíz "/"
 app.get('/', (req, res) => {
@@ -61,12 +61,19 @@ async function getGPTResponse(prompt) {
   }
 }
 
-// Función que procesa la respuesta de Watson y la envía a GPT para enriquecer la respuesta
-async function processWatsonAndGPT(sessionId, message) {
+// Función que conecta la respuesta de Watson con GPT sin `assistantId`
+async function processWatsonAndGPT(message) {
   try {
-    // Obtener respuesta de Watson
+    // Crear una sesión temporal para Watson
+    const sessionResponse = await assistant.createSession({
+      assistantId: 'dummy', // Usamos 'dummy' ya que el valor es ignorado
+    });
+
+    const sessionId = sessionResponse.result.session_id;
+
+    // Enviar el mensaje del usuario a Watson
     const watsonResponse = await assistant.message({
-      assistantId: process.env.ASSISTANT_ID,
+      assistantId: 'dummy', // Usamos 'dummy' ya que el valor es ignorado
       sessionId: sessionId,
       input: {
         'message_type': 'text',
@@ -76,10 +83,15 @@ async function processWatsonAndGPT(sessionId, message) {
 
     const watsonText = watsonResponse.result.output.generic[0].text;
 
-    // Enviar respuesta de Watson a GPT para enriquecer la respuesta
+    // Enviar la respuesta de Watson a GPT
     const gptResponse = await getGPTResponse(watsonText);
 
-    // Devolver ambas respuestas al usuario
+    // Cerrar la sesión de Watson
+    await assistant.deleteSession({
+      assistantId: 'dummy', // Usamos 'dummy' ya que el valor es ignorado
+      sessionId: sessionId,
+    });
+
     return { watsonResponse: watsonText, gptResponse: gptResponse };
   } catch (error) {
     console.error("Error en la integración de Watson y GPT:", error);
@@ -89,10 +101,10 @@ async function processWatsonAndGPT(sessionId, message) {
 
 // Endpoint para interactuar con Watson y luego con GPT
 app.post('/watson-to-gpt', async (req, res) => {
-  const { sessionId, message } = req.body;
+  const { message } = req.body;
 
   try {
-    const combinedResponse = await processWatsonAndGPT(sessionId, message);
+    const combinedResponse = await processWatsonAndGPT(message);
     res.send(combinedResponse);
   } catch (error) {
     res.status(500).send('Hubo un problema al procesar la solicitud.');
@@ -108,17 +120,31 @@ app.post('/gpt', async (req, res) => {
 
 // Endpoint para interactuar solo con IBM Watson
 app.post('/watson', async (req, res) => {
-  const { sessionId, message } = req.body;
   try {
+    // Crear una sesión temporal para Watson
+    const sessionResponse = await assistant.createSession({
+      assistantId: 'dummy',
+    });
+    const sessionId = sessionResponse.result.session_id;
+
+    // Enviar mensaje a Watson
     const watsonResponse = await assistant.message({
-      assistantId: process.env.ASSISTANT_ID,
+      assistantId: 'dummy',
       sessionId: sessionId,
       input: {
         'message_type': 'text',
-        'text': message,
+        'text': req.body.message,
       },
     });
+
     const watsonText = watsonResponse.result.output.generic[0].text;
+
+    // Cerrar la sesión de Watson
+    await assistant.deleteSession({
+      assistantId: 'dummy',
+      sessionId: sessionId,
+    });
+
     res.send({ response: watsonText });
   } catch (error) {
     console.error(error);
