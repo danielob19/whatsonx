@@ -3,6 +3,11 @@ const multer = require('multer');
 const path = require('path');
 const app = express();
 
+// Definir la ruta raíz "/"
+app.get('/', (req, res) => {
+  res.send('¡Bienvenido! El servidor está funcionando correctamente.');
+});
+
 // Configuración de Multer para manejar la carga de archivos
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
