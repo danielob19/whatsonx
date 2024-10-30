@@ -1,12 +1,13 @@
 const express = require('express');
 const multer = require('multer');
-const path = require('path');
 const axios = require('axios');
 const AssistantV2 = require('ibm-watson/assistant/v2');
 const { IamAuthenticator } = require('ibm-watson/auth');
 const app = express();
 
-// Definir la ruta raíz "/"
+app.use(express.json()); // Para parsear JSON en las solicitudes
+
+// Ruta raíz "/"
 app.get('/', (req, res) => {
   res.send('¡Bienvenido! El servidor está funcionando correctamente.');
 });
@@ -28,11 +29,20 @@ app.post('/upload-csv', upload.single('file'), (req, res) => {
   if (!req.file) {
     return res.status(400).send('No se subió ningún archivo.');
   }
-  const fileName = req.file.originalname; // Obtener el nombre del archivo
+  const fileName = req.file.originalname;
   res.send(`Archivo CSV subido correctamente: ${fileName}`);
 });
 
-// Función para interactuar con OpenAI GPT
+// Configuración e integración de IBM Watson Assistant
+const assistant = new AssistantV2({
+  version: '2023-04-01',
+  authenticator: new IamAuthenticator({
+    apikey: process.env.IBM_API_KEY,
+  }),
+  serviceUrl: process.env.IBM_SERVICE_URL,
+});
+
+// Función para obtener respuesta de GPT
 async function getGPTResponse(prompt) {
   try {
     const response = await axios.post('https://api.openai.com/v1/completions', {
@@ -46,47 +56,74 @@ async function getGPTResponse(prompt) {
     });
     return response.data.choices[0].text;
   } catch (error) {
-    console.error(error);
+    console.error("Error en GPT:", error);
+    return "Lo siento, hubo un problema al obtener la respuesta de GPT.";
   }
 }
 
-// Configuración e interacción con IBM Watson Assistant
-const assistant = new AssistantV2({
-  version: '2023-04-01',
-  authenticator: new IamAuthenticator({
-    apikey: process.env.IBM_API_KEY,
-  }),
-  serviceUrl: process.env.IBM_SERVICE_URL,
-});
-
-async function sendMessageToWatson(sessionId, message) {
+// Función que procesa la respuesta de Watson y la envía a GPT para enriquecer la respuesta
+async function processWatsonAndGPT(sessionId, message) {
   try {
-    const response = await assistant.message({
-      assistantId: 'tu_assistant_id', // Reemplaza con el ID de tu asistente
+    // Obtener respuesta de Watson
+    const watsonResponse = await assistant.message({
+      assistantId: process.env.ASSISTANT_ID,
       sessionId: sessionId,
       input: {
         'message_type': 'text',
         'text': message,
       },
     });
-    return response.result.output.generic[0].text;
+
+    const watsonText = watsonResponse.result.output.generic[0].text;
+
+    // Enviar respuesta de Watson a GPT para enriquecer la respuesta
+    const gptResponse = await getGPTResponse(watsonText);
+
+    // Devolver ambas respuestas al usuario
+    return { watsonResponse: watsonText, gptResponse: gptResponse };
   } catch (error) {
-    console.error(error);
+    console.error("Error en la integración de Watson y GPT:", error);
+    throw new Error('Hubo un problema al procesar la solicitud.');
   }
 }
 
-// Endpoint para interactuar con GPT
+// Endpoint para interactuar con Watson y luego con GPT
+app.post('/watson-to-gpt', async (req, res) => {
+  const { sessionId, message } = req.body;
+
+  try {
+    const combinedResponse = await processWatsonAndGPT(sessionId, message);
+    res.send(combinedResponse);
+  } catch (error) {
+    res.status(500).send('Hubo un problema al procesar la solicitud.');
+  }
+});
+
+// Endpoint para interactuar solo con GPT
 app.post('/gpt', async (req, res) => {
-  const prompt = req.body.prompt; // Espera el prompt del cuerpo de la solicitud
+  const prompt = req.body.prompt;
   const gptResponse = await getGPTResponse(prompt);
   res.send({ response: gptResponse });
 });
 
-// Endpoint para interactuar con IBM Watson
+// Endpoint para interactuar solo con IBM Watson
 app.post('/watson', async (req, res) => {
-  const { sessionId, message } = req.body; // Recibe el mensaje y el ID de sesión del cliente
-  const watsonResponse = await sendMessageToWatson(sessionId, message);
-  res.send({ response: watsonResponse });
+  const { sessionId, message } = req.body;
+  try {
+    const watsonResponse = await assistant.message({
+      assistantId: process.env.ASSISTANT_ID,
+      sessionId: sessionId,
+      input: {
+        'message_type': 'text',
+        'text': message,
+      },
+    });
+    const watsonText = watsonResponse.result.output.generic[0].text;
+    res.send({ response: watsonText });
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Hubo un problema al procesar la solicitud en Watson.');
+  }
 });
 
 // Configuración del puerto y arranque del servidor
